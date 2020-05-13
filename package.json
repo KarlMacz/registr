@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "app": "ng build --prod && electron ."
+    "app": "ng build client --prod && ng build server --prod && electron ."
   },
   "private": true,
   "dependencies": {
