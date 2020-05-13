@@ -1,4 +1,5 @@
 const { app, BrowserWindow, dialog, Menu } = require('electron');
+const service = require('./service');
 
 app.on('ready', () => {
   let win = new BrowserWindow({
